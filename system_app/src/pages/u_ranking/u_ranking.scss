@@ -1,0 +1,43 @@
+
+.u_ranking-wrap {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ececec;
+   
+}
+.u-ranking_head{
+    margin: 0 0px;
+    padding:10px 5%;
+    background-size: 100% 100%;
+     background-image: url('https://booking-system-resource.oss-cn-beijing.aliyuncs.com/%E9%A1%B5%E9%9D%A2%E7%B4%A0%E6%9D%90/%E6%8E%92%E8%A1%8C%E6%A6%9C/%E6%8E%92%E8%A1%8C%E6%A6%9C%E8%83%8C%E6%99%AF.png');
+    min-height: 350px;
+   
+}
+.u-ranking-userinfo{
+    margin-top: 200px;
+    position: absolute;
+    z-index: 100;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 15px;
+}
+
+.u-ranking_content{
+    margin: 70px 5%;
+    background: white;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+.avatar-bg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;  
+    padding-top: 20px; 
+}
+.avatar-ranking{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;   
+    margin-top: 2.5px;
+}

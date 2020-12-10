@@ -1,0 +1,33 @@
+.main-appoint-card{
+    width: 95%;
+    background-color:#ffffff;
+    padding-left: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.appoint-card-title{
+    margin-left: 2.5%;
+    margin-top: 20px;
+    font-size: small;
+    color: #8C8C8C;   
+}
+.appoint-card-line{
+    width: 90%;
+   
+}
+.appoint-card-btn{
+    background: #00D0C7;
+    font-size: initial;
+    color: #fff;
+    height: 70px;
+    width: 90%;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10%,
+}
+.appoint-card-btn::after{
+    border: none; 
+}

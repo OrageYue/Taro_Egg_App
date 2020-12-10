@@ -1,0 +1,59 @@
+
+.normal-card{
+    margin: 10px 10%;
+    padding: 0px 2.5%;
+    overflow: hidden;
+     padding-top: 20px;
+    min-height:300px;
+     width:75%;
+     background-image: url('https://booking-system-resource.oss-cn-beijing.aliyuncs.com/user_card_normal_bg.png');
+     background-size: 100% 100%;
+    border-radius: 20px;
+
+}
+
+.recharge-wrap {
+    padding-top: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background: #141414;
+}
+
+.recharge-detail{
+    color:#B3B3B3;
+    margin:0 12%;
+    margin-top: 10px;
+    font-size: 24px;
+    overflow: hidden;
+    
+}
+.recharge-setmeal{
+   
+    min-height:100px;
+    width:100%;
+    background:#141414;
+    color: #ffffff;
+    padding-bottom: 20px;
+   
+}
+
+.recharge-pay{
+   margin-top: 20px;
+    margin: 0 2.5%;
+    min-height:100px;
+    width:90%;
+    background:#141414;
+    color: #ffffff;
+    padding: 0 2.5%;
+}
+.recharge-btn{
+    background-color: #B3B3B3;
+    border: none;
+    color:#f0f0f0;
+    border-radius: 40px;
+    font-size: 28px;
+}
+.recharge-btn::after{
+    border: none;
+    
+}

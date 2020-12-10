@@ -1,0 +1,19 @@
+.appoint-card-btn{
+    background: #00D0C7;
+    border-radius: 40px;
+    border: none;
+    color: #ffffff;
+}
+.appoint-card-btn-cancle{
+    border-radius: 40px;
+    border: none;
+    color: #686868;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.appoint-card-btn::after{
+    border: none;
+}
+.appoint-card-btn-cancle::after{
+    border: none;
+}

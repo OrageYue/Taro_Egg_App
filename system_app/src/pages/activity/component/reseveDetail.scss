@@ -1,0 +1,95 @@
+.reserve-modal{
+    background-color: #c0c0c080;
+    min-height: 120vh;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+.reserve-modal-card{
+    position: relative;
+    background-color: #ffffff;
+    width: 80%;
+     margin: 0 10%;
+    margin-top: 100px;
+    min-height: 62vh;
+    border-radius: 15px;
+   
+    // padding: 30px 5%;
+}
+.reserve-cancel{
+    padding: 20px 5%;
+    float: right;
+}
+.reserve-cancel-icon{
+    width: 30px;
+    height: 30px;
+}
+.reserve-card-title-info{
+    padding: 0px 5%;
+    padding-top: 60px;
+
+}
+.reserve-card-info{
+    padding: 10px 5%;
+}
+.top-title{
+    font-weight: 500;
+    color: #747474;
+    font-size: 34px;
+}
+.activity-info-item{
+    overflow: hidden;
+   margin-top: 50px;
+}
+.activity-info-text-left{
+     font-weight: 500;
+    float: left;
+    font-size: 30px;
+}
+.activity-info-text-right{
+    float: right;
+    font-size: 28px;
+    color: #969696;
+}
+.activity-price-check{
+    margin-top: 70px;
+}
+.activity-price-check-left{
+    float: left;
+    color: #FF4D4F;
+    // E50E0E
+    // font-weight: 500;
+}
+.activity-price-check-right{
+    
+    float: right;
+}
+.activity-price-check-right-top{
+    
+    float: right;
+}
+.activity-price-check-right-bottom{
+    
+    // float: right;
+     color: #969696;
+     text-decoration: line-through;
+}
+.activity-btn{
+    position: absolute;
+    bottom: 0;
+    min-height: 80px;
+    width: 100%;
+    background:#00D0C7 ;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #ffffff;
+
+}
+.activity-btn-text{
+    position: absolute;
+    color: #ffffff;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,40 @@
+
+activity-wrap {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FDFDFD;
+
+}
+$color-brand: #00D0C7;
+
+// @import "~taro-ui/dist/style/index.scss";
+
+.reserve-modal{
+    background-color: #c0c0c080;
+    min-height: 120vh;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+.reserve-modal-card{
+    background-color: #ffffff;
+    width: 70%;
+    margin: 0 15%;
+    margin-top: 100px;
+    min-height: 60vh;
+    border-radius: 10px;
+}
+.no-data{
+    background: #ffffff;
+    width: 100%;
+    // margin: 0 5%;
+    min-height: 500px;
+    border-radius: 10px;
+    box-shadow: #f3f3f3e1 2px 0px 10px 5px ;
+}
+// .coupon-content{
+// padding: 100px 50px;
+// background-color: #ffffff;
+// text-align: center;
+// }

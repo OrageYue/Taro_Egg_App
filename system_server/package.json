@@ -1,0 +1,65 @@
+{
+  "name": "cp_server",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "egg": "^2.26.1",
+    "egg-bcrypt": "^1.1.0",
+    "egg-cors": "^2.2.3",
+    "egg-jwt": "^3.1.7",
+    "egg-mongoose": "^3.2.0",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.13.0",
+    "egg-validate": "^2.0.2",
+    "egg-view-nunjucks": "^2.2.0",
+    "fast-xml-parser": "^3.17.4",
+    "image-downloader": "^4.0.1",
+    "inflation": "^2.0.0",
+    "mocha": "^7.2.0",
+    "moment": "^2.26.0",
+    "raw-body": "^2.4.1",
+    "stream-to-array": "^2.3.0",
+    "stream-wormhole": "^1.1.0",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "autod": "^3.1.0",
+    "autod-egg": "^1.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "egg-bin": "^4.14.1",
+    "egg-ci": "^1.15.0",
+    "egg-mock": "^4.0.0",
+    "eslint": "^7.1.0",
+    "eslint-config-egg": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-cp_server",
+    "stop": "egg-scripts stop --title=egg-server-cp_server",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "egg-bin test",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}

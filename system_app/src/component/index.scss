@@ -1,0 +1,19 @@
+.appoint-content{
+padding: 100px 50px;
+background-color: #ffffff;
+text-align: center;
+min-height: 100vh;
+}
+.nodata-btn{
+     border: none;
+     background-color: #00D0C7;
+     color: #ffffff;
+     width: 30%;
+     font-size: 25px;
+     border-radius: 50px;
+     margin-top: 30px;
+
+}
+.nodata-btn::after{
+    border: none;
+}

@@ -1,0 +1,54 @@
+.main-warp{
+    min-height: 100vh;
+    width: 100%
+}
+.main-login-top-bg{
+    background-image: url('https://booking-system-resource.oss-cn-beijing.aliyuncs.com/%E7%AE%A1%E7%90%86%E5%91%98%E9%A6%96%E9%A1%B5%E8%83%8C%E6%99%AF.png');
+    // background-color: #1890ff;
+    background-size: 100% 100%;
+    min-height: 700px;
+    position: relative;
+     z-index: 10;
+}
+.main-login-top-title{
+    position: absolute;
+    color: white;
+     margin-top: 5em;
+     font-size: 40px;
+     width: 100%;
+     text-align: center;
+
+     
+}
+.main-login-bottom-card-nologin{
+    margin-top: 20em;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 80%;
+    padding: 20% 10%;
+}
+.main-login-bottom-card-login{
+    margin-top: 20em;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 90%;
+    padding: 20% 5%;
+}
+.login-btn{
+    border: none;
+    background-color: #1890ff;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.login-btn::after{
+    border: none;
+   
+}

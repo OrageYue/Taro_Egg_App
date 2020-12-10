@@ -1,0 +1,45 @@
+
+.u_customService-wrap {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 2.5%;
+    background-color: #ececec;
+}
+.u_customService-contact{
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 200px;
+    margin-top: 20px;
+    width: 95%;
+    padding-bottom: 30px;
+}
+
+.u_customService-feedback{
+    border-radius: 10px;
+    background-color: #ffffff;
+    
+    margin-top: 20px;
+    width: 95%;
+    padding-bottom: 20px;
+   overflow: hidden;
+}
+
+.contact-btn{
+    background-color: white;
+    border: none;
+    font-size: 22px;
+}
+.contact-btn::after{
+    border: none;
+}
+.submit-btn{
+    background-color: #00D0C7;
+    color: white;
+    border: none;
+    font-size: 22px;
+    width: 140px;
+    border-radius: 50px;
+}
+.submit-btn::after{
+    border: none;
+}

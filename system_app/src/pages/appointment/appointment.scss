@@ -1,0 +1,10 @@
+
+.appointment-wrap {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ECECEC;
+}
+
+$color-brand: #00D0C7;
+/* 引入 Taro UI 默认样式 */
+@import "~taro-ui/dist/style/index.scss";
