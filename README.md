@@ -1,4 +1,4 @@
-
+![](https://img.shields.io/badge/Author-yun--cheng-green)
 ## 自习室小程序（商业项目开源）
 
 >具体系统接口文档地址：
